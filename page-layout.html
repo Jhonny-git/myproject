@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			box-sizing:border-box;
+		}
+		body{
+    padding:20px;
+    font-family:Calibri;
+		background-color:#5A1B1B;
+		}
+		.header{
+     text-align:center;
+     background-color:white;
+     padding:30px;
+     font-size:20px;
+
+		}
+		.menu {
+			left: 0;
+			right: 0;
+			background:#CC6C6C;
+			position:sticky;
+			top:0;
+			margin: 0;
+			width: -webkit-fill-available;
+			height: 50px
+			z-index: 2;
+			/*  width: 1149px;*/
+       
+		
+		}
+		.links a{
+				/*background-color:#CC6C6C;*/
+			float:left;
+			color:white;
+			display:block;
+			padding:15px 20px;
+			cursor: pointer;
+			text-decoration: none;
+			font-size: 18px;
+		}
+		.lang a {
+		/*	background-color:#CC6C6C;*/
+					text-decoration: none;
+			font-size: 20px;
+			float:right;
+			color:#CAC1C1;
+			display:block;
+			padding:15px 7px;
+			cursor: pointer;
+		}
+		.links a:hover{
+     background-color:#A72F2F;
+     color:#DCC8DC;
+		}
+		.lang a:hover{
+     background-color:#A72F2F;
+     color:#DCC8DC;
+		}
+		.left{
+     float:left;
+     width:75%;
+
+		}
+		.right{
+			float:left;
+			width:25%;
+		  padding: 0px 20px 0 20px;
+		  margin-top: -2px;
+		}
+		.card img{
+			float: left;
+			width:100%;
+	    height: auto;
+			padding:20px;
+			tansition: 0.5s ease;
+		}
+		.card{
+			padding:20px;
+			margin-top:20px;
+			background: grey;
+		  opacity: 65%;
+		}
+
+		.card img:hover {
+			transform: scale(1.1);
+			opacity: 100%;
+		}
+.footer{
+    	padding:20px;
+    	text-align:center;
+    	background-color:#977070;
+    	margin-top:20px;
+    	float:left;
+        width: -webkit-fill-available;
+    }
+
+    .main:after {
+    	content: '';
+    	display: table;
+    	clear: both;
+    }
+
+    @media screen and (max-width: 800px){
+    	.left, .right {
+    		width: 100%;
+    		padding: 0;
+    	}
+    }
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1> the heading of web page </h1>
+	</div>
+	
+	<div class="menu">
+		   <div class="links">
+			     <a href="">Home</a>
+					 <a href="">About</a>
+			     <a href="">Setings</a>
+			     <a href="">Contacts</a>
+		   </div>
+
+		   <div class="lang">
+			 		<a href="">UZ</a>
+					<a href="">EN</a>
+					<a href="">RU</a>
+				</div>
+			
+	</div>
+  
+  <div class="main">
+  				<div class="left">
+  		   <div class="card">
+  		   	<h2>Title</h2>
+  		   	<h5>Description 14.01.2021 </h5>
+         <div class="img" style="height:120px"> 
+         	<img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80" alt="">
+					  </div>
+					<p>"Changing Lanes” is the official podcast of BMW. Featuring new episodes each week, 
+  		   	in which our hosts take you on exciting journeys and talk about innovative technologies,
+  		    lifestyle, design, cars and more. Find and subscribe to Changing Lanes on all major podcasting platforms.</p>  		   
+  		   </div>
+
+  		   <div class="card">
+  		   	<h2>Title</h2>
+  		   	<h5>Description 14.01.2021 </h5>
+         <div class="img" style="height:120px"> 
+         	<img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80" alt="">
+				 </div>
+					<p>"Changing Lanes” is the official podcast of BMW. Featuring new episodes each week, 
+  		   	in which our hosts take you on exciting journeys and talk about innovative technologies,
+  		    lifestyle, design, cars and more. Find and subscribe to Changing Lanes on all major podcasting platforms.</p>  		   
+  		   </div>
+  			
+
+  			<div class="card">
+  		   	<h2>Title</h2>
+  		   	<h5>Description 14.01.2021 </h5>
+         <div class="img" style="height:120px"> 
+         	<img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80" alt="">
+				    </div>
+					<p>"Changing Lanes” is the official podcast of BMW. Featuring new episodes each week, 
+  		   	in which our hosts take you on exciting journeys and talk about innovative technologies,
+  		    lifestyle, design, cars and more. Find and subscribe to Changing Lanes on all major podcasting platforms.</p>  		   
+  		   </div>
+  			
+
+  			<div class="card">
+  		   	<h2>Title</h2>
+  		   	<h5>Description 14.01.2021 </h5>
+         <div class="img" style="height:120px"> 
+         	<img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80" alt="">
+				     </div>
+					<p>"Changing Lanes” is the official podcast of BMW. Featuring new episodes each week, 
+  		   	in which our hosts take you on exciting journeys and talk about innovative technologies,
+  		    lifestyle, design, cars and more. Find and subscribe to Changing Lanes on all major podcasting platforms.</p>  		   
+  		   </div>
+  			
+  			
+
+  				</div>
+
+
+  				<div class="right"> 
+  					<div class="card">
+  						<h2>Title</h2>
+  						<div class="img" style="height:120px"> <img src="https://media.caradvice.com.au/image/private/s--gMDJiqK---/v1541407036/7a719298b693be99ffc1b6fc26b41c11.jpg" alt=""></div>
+  				  <p>The V-Class/Viano is a large MPV. The first generation went on sale in 1996.
+  				   The second generation was introduced in 2004, and the vehicle received the new Viano name. 
+  				   In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. 
+  				   The interior was also improved with upgraded materials and new technology.
+  				   The third generation was launched in 2014 and returned to being called V-Class.</p>
+  				</div>
+
+  				<div class="card">
+  						<h2>Title</h2>
+  						<div class="img" style="height:120px"> <img src="https://media.caradvice.com.au/image/private/s--gMDJiqK---/v1541407036/7a719298b693be99ffc1b6fc26b41c11.jpg" alt=""></div>
+  				  <p>The V-Class/Viano is a large MPV. The first generation went on sale in 1996.
+  				   The second generation was introduced in 2004, and the vehicle received the new Viano name. 
+  				   In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. 
+  				   The interior was also improved with upgraded materials and new technology.
+  				   The third generation was launched in 2014 and returned to being called V-Class.</p>
+  				</div>
+
+  				<div class="card">
+  						<h2>Title</h2>
+  						<div class="img" style="height:120px"> <img src="https://media.caradvice.com.au/image/private/s--gMDJiqK---/v1541407036/7a719298b693be99ffc1b6fc26b41c11.jpg" alt=""></div>
+  				  <p>The V-Class/Viano is a large MPV. The first generation went on sale in 1996.
+  				   The second generation was introduced in 2004, and the vehicle received the new Viano name. 
+  				   In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. 
+  				   The interior was also improved with upgraded materials and new technology.
+  				   The third generation was launched in 2014 and returned to being called V-Class.</p>
+  				</div>
+
+  				<div class="card">
+  						<h2>Title</h2>
+  						<div class="img" style="height:120px"> <img src="https://media.caradvice.com.au/image/private/s--gMDJiqK---/v1541407036/7a719298b693be99ffc1b6fc26b41c11.jpg" alt=""></div>
+  				  <p>The V-Class/Viano is a large MPV. The first generation went on sale in 1996.
+  				   The second generation was introduced in 2004, and the vehicle received the new Viano name. 
+  				   In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. 
+  				   The interior was also improved with upgraded materials and new technology.
+  				   The third generation was launched in 2014 and returned to being called V-Class.</p>
+  				</div>
+  				</div>
+  			  </div>
+
+  	<div class="footer">
+  					Footer text
+  				</div>
+</body>
+</html>
